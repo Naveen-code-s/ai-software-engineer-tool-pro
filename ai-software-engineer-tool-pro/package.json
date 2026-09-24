@@ -1,0 +1,11 @@
+{
+  "name": "ai-software-engineer-tool",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20.6" },
+  "scripts": {
+    "start": "node --env-file=.env server.js",
+    "dev": "node --watch --env-file=.env server.js"
+  }
+}
